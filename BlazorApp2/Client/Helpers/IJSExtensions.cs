@@ -26,5 +26,12 @@ namespace BlazorApp2.Client.Helpers
             return await js.InvokeAsync<bool>("CustomConfirm", titulo, mensaje, tipoMensajeSweetAlert.ToString());
         }
 
+
+
+    }
+
+    public enum TipoMensajeSweetAlert
+    {
+        question, warning, error, success, info
     }
 }
