@@ -1,4 +1,5 @@
 ﻿using BlazorApp2.Shared.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp2.Server.Repositories
 {
@@ -39,20 +40,38 @@ namespace BlazorApp2.Server.Repositories
                 return persona;
 
             }
+            else
+            {
+
+
+                return new Persona();
+
+            }
         }
 
-        public Task EliminarPersona(int id)
+        public async Task EliminarPersona(int id)
         {
-            throw new NotImplementedException();
+            var personaDesdeDb = await _context.Personas.FindAsync(id);
+            _context.Remove(personaDesdeDb);
+            await _context.SaveChangesAsync();
+
         }
 
-        public Task<Persona> GetPersonaId(int id)
+        public async Task<Persona> GetPersonaId(int id)
         {
-            throw new NotImplementedException();
+            var personaDesdeDb = await _context.Personas.FindAsync(id);
+            if (personaDesdeDb == null)
+            {
+                return new Persona();
+            }
+
+            return new Persona();
         }
 
         public Task<List<Persona>> GetPersonas()
         {
-            throw new NotImplementedException();
+            return _context.Personas.ToListAsync();
         }
     }
+
+}
