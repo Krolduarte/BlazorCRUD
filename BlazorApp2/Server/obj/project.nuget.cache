@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5ds05/YoaB61x1xKEbulVtmTCkZo5YzsUo/ZzWrixA/O3EqpSrcbUFuJXPtVYWaGzPCR2sKNe853TsIIR6UVsg==",
+  "dgSpecHash": "3R8f9HeWSWBSAN8Q1TqVUSKbWmAzbsvQC9UNpESifRXRmfjRE2IkbM7QNkR/O5ZNA/L4lPWNxggZdLmZJIcsdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Server\\BlazorApp2.Server.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
+    "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\microsoft.extensions.http.7.0.0.nupkg.sha512",
     "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",

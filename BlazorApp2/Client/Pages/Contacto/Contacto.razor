@@ -1,0 +1,52 @@
+﻿@page "/contactos"
+@inject HttpClient Http
+
+<h3>Contacto</h3>
+<EditForm Model="_contact" OnSubmit="Enviar">
+
+    <DataAnnotationsValidator />
+    <div class="form-group row">
+        <label for="name" class="col-md-2 col-form-label">Nombre:</label>
+        <div class="col-md-10">
+            <InputText id="name" class="form-control" @bind-Value="_contact.Name" />
+
+            <ValidationMessage For = "(() => _contact.Name)"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="surname" class="col-md-2 col-form-label">Apellido:</label>
+        <div class="col-md-10">
+            <InputText id="surname" class="form-control" @bind-Value="_contact.Surname" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="email" class="col-md-2 col-form-label">Email:</label>
+        <div class="col-md-10">
+            <InputText id="email" class="form-control" @bind-Value="_contact.Email" />
+
+            <ValidationMessage For="(() => _contact.Email)" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="message" class="col-md-2 col-form-label">mensaje:</label>
+        <div class="col-md-10">
+            <InputTextArea rows="5" id="message" class="form-control" @bind-Value="_contact.Message" />
+
+            <ValidationMessage For="(() => _contact.Message)" />
+        </div>
+    </div>
+    <button type="submit">Enviar formulario </button>
+</EditForm>
+
+@code{
+    private ContactoDTO _contact { get; set; } = new ContactoDTO();
+
+    private void Enviar()
+    {
+        string nombre = _contact.Name;
+
+    }
+
+
+
+}

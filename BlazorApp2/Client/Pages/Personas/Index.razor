@@ -6,10 +6,13 @@
 @inject IJSRuntime JS
 
 
-<h3>Personas</h3>
 
+<h3>Clientes</h3>
+<br />
 <div>
-    <a class="btn btn-success" href="crear-persona">Nueva Persona</a>
+    <a class="btn btn-success" href="crear-persona"><i class="bi bi-plus-square"></i></a>
+    <button @onclick="ExportarCsv"><i class="bi bi-filetype-csv"></i>CSV</button>
+    <button @onclick="ExportarExcel"><i class="bi bi-file-spreadsheet-fill">Excel</i></button>
 </div>
 
 @if (personas == null)
@@ -22,13 +25,23 @@ else if (personas.Length == 0)
 }
 else
 {
+    <br />
+
     <table class="table">
         <thead>
 
             <tr>
                 <th></th>
+               @* <th></th>*@
                 <th>Id</th>
                 <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Descripcion</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Team Id</th>
+                <th>Rol Id</th>
+                <th>Disponible</th>
             </tr>
         </thead>
 
@@ -38,11 +51,19 @@ else
             {
                 <tr>
                     <td>
-                        <a class="btn btn-success" href="editar-persona/@persona.Id">Editar</a>
-                        <button class="btn btn-danger" @onclick="(() => BorrarPersona(persona.Id))">Borrar</button>
+                        <a class="btn btn-success" href="editar-persona/@persona.Id"> <i class="oi oi-pencil"></i></a>
+                        <button class="btn btn-danger" @onclick="(() => BorrarPersona(persona.Id))"> <i class="bi bi-trash"></i></button>
                     </td>
+                   @* <td><img src="@persona.Image" class="rounded" style="max-height:100px;" /></td>*@
                     <td>@persona.Id</td>
                     <td>@persona.Nombre</td>
+                    <td>@persona.Apellido</td>
+                    <td>@persona.Email</td>
+                    <td>@persona.Descripcion</td>
+                    <td>@persona.BirthDate</td>
+                    <td>@persona.TeamId</td>
+                    <td>@persona.RolId</td>
+                    <td>@persona.IsReadyToWork</td>
 
                 </tr>
             }
@@ -50,24 +71,22 @@ else
         </tbody>
     </table>
     <br />
-    <button @onclick="ExportarCsv">Exportar a CSV</button>
-    <button @onclick="ExportarExcel">Exportar a Excel</button>
+
 
 }
 @code {
 
-    Persona[] personas { get; set; }
+    Persona[] personas
+    {
+        get; set;
+    }
 
     protected override async Task OnInitializedAsync() => await CargarPersonas();
 
     async Task CargarPersonas()
     {
         personas = await Http.GetFromJsonAsync<Persona[]>("personas");
-        //personas = new Persona[]
-        //{
-        //    new Persona(){Id = 1, Nombre = "Victoria"},
-        //    new Persona(){Id = 2 , Nombre = "Pablo"}
-        //};
+
     }
 
     async Task BorrarPersona(int idPersona)
@@ -85,7 +104,7 @@ else
 
     private void ExportarCsv()
     {
-        using (var memoryStream  = new MemoryStream())
+        using (var memoryStream = new MemoryStream())
         {
             using (var writer = new StreamWriter(memoryStream))
             {

@@ -13,7 +13,22 @@ namespace BlazorApp2.Server
         }
 
 
-        public DbSet<Persona> Personas { get; set; }
+        public DbSet<Persona> Personas
+        {
+            get; set;
+        }
+        public DbSet<Rol> Roles
+        {
+            get; set;
+        }
+        public DbSet<Team> Teams
+        {
+            get; set;
+        }
+        public DbSet<UploadResult> UploadResults
+        {
+            get; set;
+        }
 
 
     }

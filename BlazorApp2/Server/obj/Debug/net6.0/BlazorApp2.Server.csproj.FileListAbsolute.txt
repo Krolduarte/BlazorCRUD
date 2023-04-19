@@ -219,3 +219,5 @@ C:\Users\practicassoftware3\Source\Repos\BlazorCRUD\BlazorApp2\Server\bin\Debug\
 C:\Users\practicassoftware3\Source\Repos\BlazorCRUD\BlazorApp2\Server\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\practicassoftware3\Source\Repos\BlazorCRUD\BlazorApp2\Server\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\practicassoftware3\Source\Repos\BlazorCRUD\BlazorApp2\Server\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\practicassoftware3\Source\Repos\BlazorCRUD\BlazorApp2\Server\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\practicassoftware3\Source\Repos\BlazorCRUD\BlazorApp2\Server\bin\Debug\net6.0\libman.json

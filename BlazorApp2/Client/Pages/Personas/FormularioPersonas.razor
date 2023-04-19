@@ -1,22 +1,176 @@
-﻿
+﻿@using System.Net.Http.Headers
+
+@inject HttpClient Http
+
+
+
 
 <EditForm Model="@Persona" OnValidSubmit="@OnValidSubmit">
-    <div class="form-field">
-        <label>Nombre:</label>
 
-        <div>
-            <InputText @bind-Value="@Persona.Nombre"></InputText>
-            <ValidationMessage For="@(() =>Persona.Nombre)"></ValidationMessage>
+    <DataAnnotationsValidator />
+
+    <div class="form-group row">
+        <label for="name" class="col-md-2 col-form-label">Nombre:</label>
+        <div class="col-md-10">
+            <InputText id="name" class="form-control" @bind-Value="Persona.Nombre" />
+
+            <ValidationMessage For="(() => Persona.Nombre)" />
         </div>
     </div>
+    <div class="form-group row">
+        <label for="surname" class="col-md-2 col-form-label">Apellido:</label>
+        <div class="col-md-10">
+            <InputText id="surname" class="form-control" @bind-Value=" Persona.Apellido" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="email" class="col-md-2 col-form-label">Email:</label>
+        <div class="col-md-10">
+            <InputText id="email" class="form-control" @bind-Value="Persona.Email" />
+
+            <ValidationMessage For="(() => Persona.Email)" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label for="descripcion">Descripcion</label>
+        <InputTextArea id="bio" @bind-Value="Persona.Descripcion" class="form-control"></InputTextArea>
+    </div>
+
+
+    <div class="form-field">
+        <label for="birthdate">Birthdate</label>
+        <InputDate id="birthdate" @bind-Value="Persona.BirthDate" class="form-control"></InputDate>
+    </div>
+
+
+    <div class="form-field">
+        <label for="team">Team</label><br />
+        <InputRadioGroup id="team" @bind-Value="Persona.TeamId" class="form-control">
+            @foreach (var team in teams)
+            {
+                <InputRadio Value="@team.Id" />
+                <span style="padding-left: 5px;">@team.Name</span>
+                <br />
+            }
+        </InputRadioGroup>
+    </div>
+
+    <div class="form-field">
+        <label for="rol">Rol</label>
+        <InputSelect id="rol" @bind-Value="Persona.RolId" class="form-control">
+            @foreach (var rol in roles)
+            {
+                <option value="@rol.Id">@rol.Title</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="form-field">
+        <InputCheckbox id="readyToFight" @bind-Value="Persona.IsReadyToWork" class="form-check-input"></InputCheckbox>
+        <label for="readyToFight" class="form-check-label">Disponible</label>
+    </div>
+
+    @*<InputFile OnChange="@OnInputFileChange" multiple />*@
+
+
+    @*   <div>
+    <img src="@Persona.Image" class="rounded" style="max-height: 200px;" />
+    </div>*@
+
+    @*@if (fileNames.Count > 0)
+    {
+        <ul>
+            @foreach (var fileName in fileNames)
+            {
+                <li>
+                    File: @fileName
+                    <br>
+                    <span>
+                        Stored File Name : @GetStoredFileName(fileName);
+                    </span>
+                </li>
+            }
+        </ul>
+    }*@
+
     <br />
     <button type="submit" class="btn btn-success">@TextoBoton</button>
+
     <DataAnnotationsValidator />
 
 </EditForm>
 
 @code {
-    [Parameter] public Persona Persona { get; set; }
+    [Parameter]
+    public Persona Persona
+    {
+        get; set;
+    }
+    //[Parameter] public Team teams { get; set; }
+    //[Parameter] public Difficulty difficulties { get; set; }
     [Parameter] public String TextoBoton { get; set; } = "Salvar Cambios";
-    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter]
+    public EventCallback OnValidSubmit
+    {
+        get; set;
+    }
+
+
+    static List<Team> teams = new List<Team>
+    {
+        new Team { Id = 1, Name = "Equipo 1"},
+        new Team { Id = 2, Name = "Equipo 2"}
+    };
+
+    static List<Rol> roles = new List<Rol>
+    {
+        new Rol { Id = 1, Title = "Empleado"},
+        new Rol { Id = 2, Title = "Supervisor"},
+        new Rol { Id = 3, Title = "Jefe"},
+    };
+
+    private int maxAllowedFiles = int.MaxValue;
+    private long MaxFileSize = 1024 * 900;
+    private List<string> fileNames = new();
+    private List<UploadResult> uploadResults = new();
+
+    private async Task OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        using var content = new MultipartFormDataContent();
+        foreach (var file in e.GetMultipleFiles(maxAllowedFiles))
+        {
+            var fileContent = new StreamContent(file.OpenReadStream(MaxFileSize));
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+
+            fileNames.Add(file.Name);
+
+            content.Add(
+                content: fileContent,
+                name: "\"files\"",
+                fileName: file.Name);
+        }
+
+        var response = await Http.PostAsync("api/File", content);
+        var newUploadResults = await response.Content.ReadFromJsonAsync<List<UploadResult>>();
+
+        if (newUploadResults is not null)
+        {
+            uploadResults = uploadResults.Concat(newUploadResults).ToList();
+        }
+
+    }
+
+    private string? GetStoredFileName(string fileName)
+    {
+        var uploadResult = uploadResults.SingleOrDefault(f => f.FileName == fileName);
+        if (uploadResult is not null)
+        {
+            return uploadResult.StoredFileName;
+        }
+
+        return "archivo no encontrado";
+    }
+}
+
 }

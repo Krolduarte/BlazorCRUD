@@ -41,7 +41,10 @@ namespace BlazorApp2.Server.Controllers
         {
             context.Add(persona);
             await context.SaveChangesAsync();
-            return new CreatedAtRouteResult("obtenerPersona", new { id = persona.Id }, persona);
+            return new CreatedAtRouteResult("obtenerPersona", new
+            {
+                id = persona.Id
+            }, persona);
 
         }
 

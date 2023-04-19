@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sEk/aqLLudI7BnDkyHvJv1kSnOAwI9bO4UdgsN8ehvM=",
+  "Hash": "xlCAZpUBWMwJZj0BHRV1zQ1J6aaWbS0d+ITN2pHpcz4=",
   "Source": "BlazorApp2.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -524,7 +524,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -541,7 +541,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -595,6 +595,23 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Http.dll"
+    },
+    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -609,7 +626,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -626,7 +643,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
@@ -643,7 +660,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -660,7 +677,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.IO.RecyclableMemoryStream.dll",
@@ -3893,23 +3910,6 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
-      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\28qQeFkn.gz",
-      "SourceId": "BlazorApp2.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
-    },
-    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\2Efvn893.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -3942,6 +3942,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.dll"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\2t8lN6rm.gz",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\2UThXTaN.gz",
@@ -4386,6 +4403,23 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.dll"
     },
     {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\9UdKnDaJ.gz",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
+    },
+    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\aD5tTuhU.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -4743,6 +4777,23 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.15.yn0hz0ezgu.js"
     },
     {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\dA3HlGCF.gz",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\dfqx5Buw.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -4843,23 +4894,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.dll"
-    },
-    {
-      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\DY88ZH3X.gz",
-      "SourceId": "BlazorApp2.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\ELawO5gD.gz",
@@ -5304,21 +5338,21 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.dll"
     },
     {
-      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\iYWnquBk.gz",
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\IIs9AM25.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\jBGX0uCP.gz",
@@ -5848,23 +5882,6 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.dll"
     },
     {
-      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\otbR9xj3.gz",
-      "SourceId": "BlazorApp2.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
-    },
-    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\otc0YGC+.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -6188,23 +6205,6 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.dll"
     },
     {
-      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\s0OmvkoD.gz",
-      "SourceId": "BlazorApp2.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\SbefGHJs.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -6492,6 +6492,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\Trx6tf7C.gz",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\TsGNCzMp.gz",
@@ -6868,6 +6885,23 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll"
     },
     {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\wxjYnt1q.gz",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\X51T9F6v.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -6936,23 +6970,6 @@
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
     },
     {
-      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\Xj0ApAQH.gz",
-      "SourceId": "BlazorApp2.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\xxJ1sZGD.gz",
       "SourceId": "BlazorApp2.Client",
       "SourceType": "Computed",
@@ -7002,6 +7019,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ValueTuple.dll"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\YLR+hAQt.gz",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\obj\\Debug\\net6.0\\build-gz\\ynpVa1Dd.gz",
@@ -7444,6 +7478,91 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Utilidades.js"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "lib/bootstrap-icons/font/bootstrap-icons.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.json",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "lib/bootstrap-icons/font/bootstrap-icons.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.json"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "lib/bootstrap-icons/font/bootstrap-icons.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "lib/bootstrap-icons/font/fonts/bootstrap-icons.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Identity": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "SourceId": "BlazorApp2.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "lib/bootstrap-icons/font/fonts/bootstrap-icons.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
     }
   ]
 }
