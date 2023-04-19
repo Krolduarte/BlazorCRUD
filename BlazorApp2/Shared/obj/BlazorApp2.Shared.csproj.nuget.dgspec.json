@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\newka\\source\\repos\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj": {}
+    "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\newka\\source\\repos\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj": {
+    "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\newka\\source\\repos\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj",
         "projectName": "BlazorApp2.Shared",
-        "projectPath": "C:\\Users\\newka\\source\\repos\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj",
-        "packagesPath": "C:\\Users\\newka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\newka\\source\\repos\\BlazorApp2\\BlazorApp2\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj",
+        "packagesPath": "C:\\Users\\practicassoftware3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\newka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\practicassoftware3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

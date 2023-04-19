@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oneTrdU7cROrjCFC4vLWCpYevyyXNS6sYHhID92x78le1IY58m+poPHGHix2rjo6XGr9ubRhjbnLlwpGcroFiA==",
+  "dgSpecHash": "cyL+7kYad7uMNJmnorPYotuYMvwlb/gLwv68HeZMqJeS9ay12GJETagoklcK7WcW+BWVLA63eqRdWLyOM7JOxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\newka\\source\\repos\\BlazorApp2\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj",
+  "projectFilePath": "C:\\Users\\practicassoftware3\\Source\\Repos\\BlazorCRUD\\BlazorApp2\\Shared\\BlazorApp2.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,4 +1,7 @@
 ﻿@page "/indice-personas"
+@using CsvHelper;
+@using System.Globalization;
+
 @inject HttpClient Http
 @inject IJSRuntime JS
 
@@ -46,6 +49,9 @@ else
 
         </tbody>
     </table>
+    <br />
+    <button @onclick="ExportarCsv">Exportar a CSV</button>
+    <button @onclick="ExportarExcel">Exportar a Excel</button>
 
 }
 @code {
@@ -77,4 +83,54 @@ else
 
 
     }
+
+    private void ExportarCsv()
+    {
+        using (var memoryStream  = new MemoryStream())
+        {
+            using (var writer = new StreamWriter(memoryStream))
+            {
+
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+                    csv.WriteRecords(personas);
+                }
+
+                var arr = memoryStream.ToArray();
+                JS.GuardarComo("personas.csv", arr);
+            }
+        }
+    }
+
+    private void ExportarExcel()
+    {
+        using (var package = new ExcelPackage())
+        {
+            var worksheet = package.Workbook.Worksheets.Add("Personas");
+
+            var tableBody = worksheet.Cells["A1:A1"].LoadFromCollection(
+                from f in personas
+                select new
+                {
+                    f.Id,
+                    f.Nombre
+                }, true);
+
+            var header = worksheet.Cells["A1:B1"];
+            worksheet.DefaultColWidth = 25;
+            tableBody.Style.HorizontalAlignment = ExcelHorizontalAlignment.Left;
+            tableBody.Style.Fill.PatternType = ExcelFillStyle.Solid;
+            tableBody.Style.Fill.BackgroundColor.SetColor(Color.WhiteSmoke);
+            tableBody.Style.Border.BorderAround(ExcelBorderStyle.Medium);
+            header.Style.Font.Bold = true;
+            header.Style.Font.Color.SetColor(Color.White);
+            header.Style.Fill.PatternType = ExcelFillStyle.Solid;
+            header.Style.Fill.BackgroundColor.SetColor(Color.DarkBlue);
+
+            JS.GuardarComo("personas.xlsx", package.GetAsByteArray());
+        }
+    }
+
+
+
 }
